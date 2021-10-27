@@ -12,7 +12,7 @@ class Sensor:
         """Returns true if sensor is active"""
         return self.button.is_active
 
-pins = [2,3,4,14,15,18]
+pins = [2]
 
 sensors = []
 for pin in pins:
